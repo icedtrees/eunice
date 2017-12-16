@@ -1,24 +1,34 @@
+window.onload = function () {
+  document.getElementById('button').addEventListener('click', click);
+};
+
 function click() {
+  nextContent();
+}
+
+function nextContent() {
   var container = document.getElementById('container');
   if (container.firstChild != null) {
     container.removeChild(container.firstChild);
   }
 
-  setImage('resources/banner.png');
+  var getNextContent = [nextImage, nextText];
+  container.appendChild(randomElement(getNextContent)());
 }
 
-function setImage(src) {
-  var container = document.getElementById('container');
-
+function nextImage() {
   var img = document.createElement('img');
-  img.setAttribute('src', src);
+  img.setAttribute('src', 'resources/banner.png');
   img.className = 'image-content';
-
-  container.appendChild(img);
+  return img;
 }
 
-window.onload = function () {
-  document.getElementById('button').addEventListener('click', click);
-};
+function nextText() {
+  var span = document.createElement('span');
+  span.textContent = "eunice is great";
+  return span;
+}
 
-
+function randomElement(array) {
+  return array[Math.floor(Math.random() * array.length)]
+}
