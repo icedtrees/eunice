@@ -1,7 +1,7 @@
 function click() {
   alert("hello");
   var img = document.createElement('img');
-  img.setAttribute('src', 'banner.png');
+  img.setAttribute('src', 'resources/banner.png');
   document.body.appendChild(img);
 }
 
