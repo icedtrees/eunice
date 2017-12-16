@@ -1,4 +1,28 @@
-.center {
+.button {
   display: block;
   margin: auto;
+}
+
+.container-wrapper {
+  border: 1px black solid;
+  position: relative;
+  padding-top: 100%;  // 100% of width of containing element
+}
+
+.container {
+  /* need some hacks since parent is 100% padding */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.banner {
+  width: 100%;
+}
+
+.main {
+  margin: auto;
+  max-width: 50vh;
 }
