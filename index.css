@@ -18,6 +18,13 @@
   right: 0;
 }
 
+.image-content {
+  /* Vertically and horizontally center + expand to fit parent */
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
 .banner {
   width: 100%;
 }

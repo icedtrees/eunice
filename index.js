@@ -1,8 +1,20 @@
 function click() {
-  alert("hello");
+  var container = document.getElementById('container');
+  if (container.firstChild != null) {
+    container.removeChild(container.firstChild);
+  }
+
+  setImage('resources/banner.png');
+}
+
+function setImage(src) {
+  var container = document.getElementById('container');
+
   var img = document.createElement('img');
-  img.setAttribute('src', 'resources/banner.png');
-  document.body.appendChild(img);
+  img.setAttribute('src', src);
+  img.className = 'image-content';
+
+  container.appendChild(img);
 }
 
 window.onload = function () {
