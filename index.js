@@ -16,13 +16,6 @@ function nextContent() {
   container.appendChild(randomElement(getNextContent)());
 }
 
-function nextImage() {
-  var img = document.createElement('img');
-  img.setAttribute('src', 'resources/banner.png');
-  img.className = 'image-content';
-  return img;
-}
-
 function nextText() {
   var span = document.createElement('span');
   span.textContent = "eunice is great";
