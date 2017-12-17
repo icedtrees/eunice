@@ -128,7 +128,21 @@ var personalMessages = [
   'remember that jar u gave me and told me to fill with memories of my 18th year? yeah i took that and filled it up. there are some super good memories in there and i cant even think of what they are bc they were too long ago',
   'remember the church scavenger hunt? we pulled off the coolest piggyback of the event imo',
   'man i have so many letters from you. they will be really good to read when i want to know what kind of person i was a decade ago. Things are so easy to forget so physical mediums are good. Maybe im just saving them for when i really need them.',
-  ''
+  'continuing to live and maintain a normal life absolutely takes perseverance. living crushes the shit out of most people who are u kidding',
+  'sorry to hear about ur stay in the psychiatric ward. sounds really shit. also sorry to hear about how ur parents are fucking up ur room and stuff. its unfortunately doing no one any good. one day theyll understand. maybe not today.',
+  'u are trying ur best so get some rest dude. chill out for a bit. go do some relaxing things that make u happy.',
+  'someday down the line u will have to accept that ur life is harder than anyone elses, and not because of anything you did wrong. no ones feelings are their fault. the world is just a lot of people trying to coexist with their environment. some are unlucky and have to try harder than others.',
+  'u are not burden, u are the one and only eunice ling. tbh for the rest of my life i will struggle to find someone who has had more positive impact on my life than you did.',
+  'reading u write about ur ed gives me the impression that u know how to deal with your feelings better than anyone else. i think u should trust your own judgement more. u know yourself, u know how to be happy. go fucking be happy u sick nerd baller',
+  'trying to force people to want something is the mother of all shit ideas. people know what they want and u cant make them want something they dont want.',
+  'i really dont think u have done anything wrong so far. at each point you made the best judgement u could with the limited knowledge and feelings u had. really hard to say anything is ur fault. ',
+  'u honestly have one of the hardest lives out of anyone i know, you know that?',
+  'sometimes the strain of work girlfriend RSI really takes its toll on me and all i want to do is just move back to sydney and vegetate for a year or so and rest my poor hands. i think ill do that sometime in the next year. what do u think',
+  'tbh i cant do enough to support u and it sucks. my free time and energy/motivation levels are all fucked and i used to be a better person but not anymore. im gonna contribute what little i can. ur other friends will too. youll eventually need someone better to rely on for support tho. i hope u find that person.',
+  'feel free to msg me anytime u need help. while i am a fucker, im also planning to take over the world. and what shit excuse of a world-ruler cant make time for his friends that need it? for u i will find a way somehow.',
+  'lets skype sometime when we get the chance. we never actually got around to scheduling that skype call did we?',
+  'congrats again on getting into med',
+  '',
 ];
 
 function nextPersonalMessage() {
