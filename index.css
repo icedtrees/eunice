@@ -6,7 +6,7 @@
 .container-wrapper {
   /*border: 1px black solid;*/
   position: relative;
-  padding-top: 100%;  // 100% of width of containing element
+  padding-top: 90%;  // of width of containing element
 }
 
 .container {
@@ -47,5 +47,5 @@
 
 .main {
   margin: auto;
-  max-width: 50vh;
+  max-width: 60vh;
 }
