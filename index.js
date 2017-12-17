@@ -4,6 +4,12 @@ window.onload = function () {
 
 function click() {
   nextContent();
+  newButtonText();
+}
+
+function newButtonText() {
+  var newTextChoices = ['whos the best? u are', 'eunice is awesome', 'eunice is the best', 'i am great', 'give me my next thing', 'who are you? im fucking eunice', 'hey button whats up my bro?'];
+  document.getElementById('button').textContent = randomElement(newTextChoices);
 }
 
 function nextContent() {
