@@ -12,14 +12,8 @@ function nextContent() {
     container.removeChild(container.firstChild);
   }
 
-  var getNextContent = [nextChibirdImage, nextText, createMadeDay, nextHistoricalQuote];
+  var getNextContent = [nextChibirdImage, nextPersonalMessage, createMadeDay, nextHistoricalQuote];
   container.appendChild(randomElement(getNextContent)());
-}
-
-function nextText() {
-  var span = document.createElement('span');
-  span.textContent = "eunice is great";
-  return span;
 }
 
 function randomElement(array) {

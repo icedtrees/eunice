@@ -71,6 +71,11 @@ So yesterday evening, I posted that post since I didn't think I'd do anything of
 `,
     'author': 'Nara, 2017 blog'
   },
+  {
+    'text': `
+It kind of reminds me of how in the chemistry half yearly I got to this multiple choice about the history of discoveries about acids and then I didn't know which one to pick out of two so I was like "Our Davy is pretty cool, I'll just put Davy. Save my exam, Iced Trees!" and then I got it right.`,
+    'author': 'Eunice, way back in 2012'
+  },
 ];
 
 function nextHistoricalQuote() {
@@ -92,10 +97,6 @@ function nextHistoricalQuote() {
   parentDiv.appendChild(childDiv);
   return parentDiv;
 }
-
-var personalMessages = [
-
-];
 
 var chibirdImages = [
   {
@@ -119,5 +120,25 @@ function nextChibirdImage() {
   img.className = 'image-content';
   img.title = chibirdImage.caption;
   return img;
+}
+
+var personalMessages = [
+  'remember that time u printed out all those photos from japan and gave a copy to all us at ippudo? that was some sick stuff. i showed them to my mum and my mum is always asking for photos and she was so happy',
+  'https://www.youtube.com/watch?v=HiUGWXe6Yzk',
+  'remember that jar u gave me and told me to fill with memories of my 18th year? yeah i took that and filled it up. there are some super good memories in there and i cant even think of what they are bc they were too long ago',
+  'remember the church scavenger hunt? we pulled off the coolest piggyback of the event imo',
+  'man i have so many letters from you. they will be really good to read when i want to know what kind of person i was a decade ago. Things are so easy to forget so physical mediums are good. Maybe im just saving them for when i really need them.',
+  ''
+];
+
+function nextPersonalMessage() {
+  var personalMessage = randomElement(personalMessages);
+  var childDiv = document.createElement('div');
+  childDiv.textContent = personalMessage;
+
+  var parentDiv = document.createElement('div');
+  parentDiv.className = 'text-content-wrapper';
+  parentDiv.appendChild(childDiv);
+  return parentDiv;
 }
 
