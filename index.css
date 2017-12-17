@@ -20,6 +20,7 @@
 
 .image-content {
   /* Vertically and horizontally center + expand to fit parent */
+  animation: fadein 2s;
   object-fit: contain;
   width: 100%;
   height: 100%;
@@ -27,6 +28,7 @@
 
 .text-content-wrapper {
   align-items: center;
+  animation: fadein 2s;
   display: flex;
   font: 2.5vh open sans;
   height: 100%;
@@ -39,6 +41,11 @@
 .historical-quote {
   font: 2.5vh cursive;
   margin-bottom: 2vh;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .button {
