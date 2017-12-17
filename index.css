@@ -28,7 +28,7 @@
 .text-content-wrapper {
   align-items: center;
   display: flex;
-  font: 2vh open sans;
+  font: 2.5vh open sans;
   height: 100%;
   text-align: center;
 }
@@ -37,8 +37,22 @@
 }
 
 .historical-quote {
-  font: 2vh cursive;
+  font: 2.5vh cursive;
   margin-bottom: 2vh;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  background-color: #008CBA;
+  color: white;
+  font: 2vh open sans;
+  padding: 1.5vh;
+  margin: 2vh auto;
+  width: 60%;
+}
+.button:active {
+  box-shadow: 3px 3px 3px lightblue;
 }
 
 .banner {
