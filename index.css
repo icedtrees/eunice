@@ -4,7 +4,7 @@
 }
 
 .container-wrapper {
-  border: 1px black solid;
+  /*border: 1px black solid;*/
   position: relative;
   padding-top: 100%;  // 100% of width of containing element
 }
@@ -23,6 +23,17 @@
   object-fit: contain;
   width: 100%;
   height: 100%;
+}
+
+.made-day-content {
+  align-items: center;
+  display: flex;
+  font: 2vh open sans;
+  height: 100%;
+  text-align: center;
+}
+.made-day-content > * {
+  width: 100%;
 }
 
 .banner {

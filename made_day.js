@@ -5,18 +5,22 @@ function createMadeDay() {
   var day = new Date(madeDay.day).toString();
   var dayString = day = day.split(' ').slice(1, 4).join(' ');
 
-  var div1 = document.createElement('div');
-  div1.textContent = `On ${dayString}, Eunice's day was made by:`;
+  var dayDiv = document.createElement('div');
+  dayDiv.textContent = `On ${dayString}, Eunice's day was made by:`;
 
-  var div2 = document.createElement('div');
+  var eventDiv = document.createElement('div');
   var link = document.createElement('a');
   link.setAttribute('href', madeDay.url);
   link.setAttribute('target', '_blank');
   link.textContent = madeDay.text;
-  div2.appendChild(link);
+  eventDiv.appendChild(link);
 
-  var parentDiv = document.createElement('div')
-  parentDiv.appendChild(div1);
-  parentDiv.appendChild(div2);
+  var childDiv = document.createElement('div');
+  childDiv.appendChild(dayDiv);
+  childDiv.appendChild(eventDiv);
+
+  var parentDiv = document.createElement('div');
+  parentDiv.className = 'made-day-content';
+  parentDiv.appendChild(childDiv);
   return parentDiv;
 }
