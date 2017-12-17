@@ -20,7 +20,7 @@ function createMadeDay() {
   childDiv.appendChild(eventDiv);
 
   var parentDiv = document.createElement('div');
-  parentDiv.className = 'made-day-content';
+  parentDiv.className = 'text-content-wrapper';
   parentDiv.appendChild(childDiv);
   return parentDiv;
 }

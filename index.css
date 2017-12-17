@@ -25,15 +25,20 @@
   height: 100%;
 }
 
-.made-day-content {
+.text-content-wrapper {
   align-items: center;
   display: flex;
   font: 2vh open sans;
   height: 100%;
   text-align: center;
 }
-.made-day-content > * {
+.text-content-wrapper > * {
   width: 100%;
+}
+
+.historical-quote {
+  font: 2vh cursive;
+  margin-bottom: 2vh;
 }
 
 .banner {

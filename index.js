@@ -12,7 +12,7 @@ function nextContent() {
     container.removeChild(container.firstChild);
   }
 
-  var getNextContent = [nextChibirdImage, nextText, createMadeDay];
+  var getNextContent = [nextChibirdImage, nextText, createMadeDay, nextHistoricalQuote];
   container.appendChild(randomElement(getNextContent)());
 }
 

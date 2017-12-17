@@ -1,17 +1,100 @@
 var historicalQuotes = [
-  `
-blog review:
-fail whale.
-Author: Happy Apple/Eunice
-Theme: Grey text on various shades of green. Peaceful green wheat-pictured background.
-Followers: AEreas, Crystal, littlemishsunshine, btan, icedtrees, Sweet(:, Ophelia, Bitter ^^, Elisa, Beccie Tsao, Renee, Joanna, delete12, Riku, we're nothing like you, Daniel W, Srisha's bloog, Neku Sakuraba, kiss_bliss_butterfly, Harvard, JB-HI5, Cookie Dough, ~dandelion*, Aarun, human.jukebox, Average, JM
-Unique aspects: Recent comments! Haven't seen that in any other blogs. A nice followers tab! Maybe I'll put this in my followers tab. Happy Apple tips and facts!
-Review: Bright theme makes posts seem brighter when you're reading them and thinking about them. The posts themselves are pretty happy as well. "Happy Apple" really seems to suit her - happy because of the aura she exudes both in public and on her blog, and Apple because it reminds me of "an apple a day" - consistent dedication to personal health and also a responsible dedication to study. Posts daily, and always provides something interesting to read. Excited/enthusiastic perspective on everything that happens. Admirable dedication to medicine. Can't find a better word to describe it than "nice".
+  {
+    'text': `
+"Happy Apple" really seems to suit her - happy because of the aura she exudes both in public and on her blog, and Apple because it reminds me of "an apple a day" - consistent dedication to personal health and also a responsible dedication to study. Posts daily, and always provides something interesting to read. Excited/enthusiastic perspective on everything that happens. Admirable dedication to medicine. Can't find a better word to describe it than "nice".
 `,
-  'you are further down than the guy up there!',
-  '10/10 would do again',
-  'The tree is our next goal!',
-  `the davy of 2014, while working on this website project: "But I kind of feel like it is my responsibility as a friend to do all I can for her. She is my inspiration, one of my favourite friends, and for me, she represents everything good I discovered when changing schools - kind people, my own potential, doing things for others, and what it truly means to be happy. I guess I feel like, for someone like that, I owe them my world, it is the least I can do to help someone who is trying her hardest."`
+    'author': 'Davy, blog review 2012'
+  },
+  {
+    'text': 'you are further down than the guy up there!',
+    'author': 'Davy, Japan Ski Trip 2015'
+  },
+  {
+    'text': '10/10 would do again',
+    'author': 'Davy, Japan Ski Trip 2015'
+  },
+  {
+    'text': 'The tree is our next goal!',
+    'author': 'Davy, Japan Ski Trip 2015'
+  },
+  {
+    'text': 'you are further down than the guy up there!',
+    'author': 'Davy, Japan Ski Trip 2015'
+  },
+  {
+    'text': 'you are further down than the guy up there!',
+    'author': 'Davy, Japan Ski Trip 2015'
+  },
+  {
+    'text': `But I kind of feel like it is my responsibility as a friend to do all I can for her. She is my inspiration, one of my favourite friends, and for me, she represents everything good I discovered when changing schools - kind people, my own potential, doing things for others, and what it truly means to be happy. I guess I feel like, for someone like that, I owe them my world, it is the least I can do to help someone who is trying her hardest.`,
+    'author': 'Davy, while planning this project way back in 2014'
+  },
+  {
+    'text': `
+    I started this blog post mainly to thank Eunice for the awesome birthday present and Harvard for the awesome letter because I wasn't sure how else to offer thanks. Also, so excited when you said maybe doing nanowrimo this year! Would be excited to read it.
+
+you're my idol eunice
+`,
+    'author': 'Davy, some blog post in 2012'
+  },
+  {
+    'text': `Going to eunice's house again was kind of a throwback to the old days. The old days where I was excited and I cared a lot. It was a good trip for me.`,
+    'author': 'Davy, some blog post in 2015'
+  },
+  {
+    'text': `one last shout out to eunice, who is fighting for her life while i go around enjoying my days like my friend's not having her spirit crushed`,
+    'author': 'Davy, while planning this project in 2017'
+  },
+  {
+    'text': `one last shout out to eunice, who is fighting for her life while i go around enjoying my days like my friend's not having her spirit crushed`,
+    'author': 'Davy, while planning this project in 2017'
+  },
+  {
+    'text': `I feel moderately tired from relay for life. I was planning to stay up until 4am so I could say good night to eunice when she woke up because I thought it'd be funny. In retrospect maybe it's not that funny.`,
+    'author': 'Davy, relay for life 2014'
+  },
+  {
+    'text': `
+Iced Trees, Dandelion and Happy Apple were all very supportive of me, even though I don't think I was very responsive to it. You gave me help that I didn't ask for or reciprocate. You made a difference, and I remember it.
+`,
+    'author': 'Daniel, 2016 blog'
+  },
+  {
+    'text': `
+Being around Happy Apple reminds and encourages me to strive towards the person I want to be. I think it's really important to be around people who bring out a you who you like, and Happy Apple is someone who brings out the best in me.
+`,
+    'author': 'Nara, 2017 blog'
+  },
+  {
+    'text': `
+So yesterday evening, I posted that post since I didn't think I'd do anything of note for the rest of the day. But I did!! I went to Happy Apple's and it was the loveliest! Most energy and fun and excitement I've had since I came back. And that's saying a lot because I was so tired before. Man, sometimes you don't realise how much you miss someone until you spend time with them and realise how refreshed you are.
+`,
+    'author': 'Nara, 2017 blog'
+  },
+];
+
+function nextHistoricalQuote() {
+  var historicalQuote = randomElement(historicalQuotes);
+
+  var quoteDiv = document.createElement('div');
+  quoteDiv.className = 'historical-quote';
+  quoteDiv.textContent = '"' + historicalQuote.text + '"';
+
+  var authorDiv = document.createElement('div');
+  authorDiv.textContent = '-' + historicalQuote.author;
+
+  var childDiv = document.createElement('div');
+  childDiv.appendChild(quoteDiv);
+  childDiv.appendChild(authorDiv);
+
+  var parentDiv = document.createElement('div');
+  parentDiv.className = 'text-content-wrapper';
+  parentDiv.appendChild(childDiv);
+  return parentDiv;
+}
+
+var personalMessages = [
+
 ];
 
 var chibirdImages = [
