@@ -1,6 +1,3 @@
-var IMAGE_TYPE = 'IMAGE_TYPE';
-var TEXT_TYPE = 'TEXT_TYPE';
-
 var historicalQuotes = [
   `
 blog review:
@@ -14,11 +11,11 @@ Review: Bright theme makes posts seem brighter when you're reading them and thin
   'you are further down than the guy up there!',
   '10/10 would do again',
   'The tree is our next goal!',
+  `the davy of 2014, while working on this website project: "But I kind of feel like it is my responsibility as a friend to do all I can for her. She is my inspiration, one of my favourite friends, and for me, she represents everything good I discovered when changing schools - kind people, my own potential, doing things for others, and what it truly means to be happy. I guess I feel like, for someone like that, I owe them my world, it is the least I can do to help someone who is trying her hardest."`
 ];
 
 var chibirdImages = [
   {
-    'type': IMAGE_TYPE,
     'content': [
       'rainbow.jpg',
       'caption' + `life is really hard sometimes. me, most of the time i sit in my house wasting my time doing nothing. ive spent months and months just playing games (not even good games), reading reddit, watching youtube, and basically making a waste out of my life. but once in a blue moon i feel motivated, and i feel like life is back to being something worth fighting for. i'd better make the most of this. tbh maybe being unmotivated is the default state. i know u feel unmotivated sometimes. i think it's fine to just chill and do things u like and hang with people u like until u feel ready to fight again. eunice hwaiting!`,
