@@ -425,8 +425,7 @@ var personalMessages = [
   'tbh i cant do enough to support u and it sucks. my free time and energy/motivation levels are all fucked and i used to be a better person but not anymore. im gonna contribute what little i can. ur other friends will too. youll eventually need someone better to rely on for support tho. i hope u find that person.',
   'feel free to msg me anytime u need help. while i am a fucker, im also planning to take over the world. and what shit excuse of a world-ruler cant make time for his friends that need it? for u i will find a way somehow.',
   'lets skype sometime when we get the chance. we never actually got around to scheduling that skype call did we?',
-  'congrats again on getting into med',
-  '',
+  'congrats again on getting into med'
 ];
 
 function nextPersonalMessage() {
