@@ -421,7 +421,7 @@ var personalMessages = [
   'trying to force people to want something is the mother of all shit ideas. people know what they want and u cant make them want something they dont want.',
   'i really dont think u have done anything wrong so far. at each point you made the best judgement u could with the limited knowledge and feelings u had. really hard to say anything is ur fault. ',
   'u honestly have one of the hardest lives out of anyone i know, you know that?',
-  'sometimes the strain of work girlfriend RSI really takes its toll on me and all i want to do is just move back to sydney and vegetate for a year or so and rest my poor hands. i think ill do that sometime in the next year. what do u think',
+  'sometimes the strain of work and RSI really takes its toll on me and all i want to do is just move back to sydney and vegetate for a year or so and rest my poor hands. i think ill do that sometime in the next year. what do u think',
   'tbh i cant do enough to support u and it sucks. my free time and energy/motivation levels are all fucked and i used to be a better person but not anymore. im gonna contribute what little i can. ur other friends will too. youll eventually need someone better to rely on for support tho. i hope u find that person.',
   'feel free to msg me anytime u need help. while i am a fucker, im also planning to take over the world. and what shit excuse of a world-ruler cant make time for his friends that need it? for u i will find a way somehow.',
   'lets skype sometime when we get the chance. we never actually got around to scheduling that skype call did we?',
